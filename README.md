@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 Tech Assist IT Solution
+# 🚀 Innovatech IT Solution
 
 ### Modern Business Website Built with Next.js 16 & React 19
 
@@ -14,7 +14,7 @@
 
 ## 📋 Table of Contents
 
-- [About Tech Assist](#-about-tech-assist)
+- [About Innovatech](#-about-tech-assist)
 - [Features](#-features)
 - [Development Tools](#️-development-tools)
 - [Tech Stack](#-tech-stack)
@@ -30,9 +30,9 @@
 
 ---
 
-## 🎯 About Tech Assist
+## 🎯 About Innovatech
 
-Tech Assist IT Solution is your trusted partner for comprehensive IT services, specializing in student-friendly solutions across Palawan, Philippines.
+Innovatech IT Solution is your trusted partner for comprehensive IT services, specializing in student-friendly solutions across Palawan, Philippines.
 
 ### 📚 Project Purpose
 
@@ -241,7 +241,7 @@ NEXT_PUBLIC_GOOGLE_VERIFICATION_CODE=your_verification_code
 # Brevo Email Service (required for contact form)
 BREVO_API_KEY=your_brevo_api_key
 BREVO_SENDER_EMAIL=noreply@yourdomain.com
-BREVO_SENDER_NAME=Tech Assist
+BREVO_SENDER_NAME=Innovatech
 TEAM_EMAIL=your_team_email@example.com
 ```
 
@@ -551,7 +551,7 @@ Add the following in Vercel dashboard:
 NEXT_PUBLIC_SITE_URL=https://your-domain.vercel.app
 BREVO_API_KEY=your_brevo_api_key
 BREVO_SENDER_EMAIL=noreply@yourdomain.com
-BREVO_SENDER_NAME=Tech Assist
+BREVO_SENDER_NAME=Innovatech
 TEAM_EMAIL=your_team_email@example.com
 NEXT_PUBLIC_GOOGLE_VERIFICATION_CODE=your_code
 ```
@@ -584,7 +584,7 @@ NEXT_PUBLIC_GOOGLE_VERIFICATION_CODE=your_code
    - Visual storytelling
 
 3. **ℹ️ About Section**
-   - Why choose Tech Assist
+   - Why choose Innovatech
    - Animated statistics counter
    - Key differentiators
 
@@ -597,17 +597,12 @@ NEXT_PUBLIC_GOOGLE_VERIFICATION_CODE=your_code
    - Expandable tech stack details
    - Interactive cards
 
-6. **👥 Team Section**
-   - Team member profiles
-   - Roles and expertise
-   - Professional photos
-
-7. **📧 Contact Section**
+6. **📧 Contact Section**
    - Functional contact form
    - Email integration
    - Real-time validation
 
-8. **🔗 Footer**
+7. **🔗 Footer**
    - Social media links
    - Quick navigation
    - Copyright information
@@ -684,14 +679,13 @@ Explore the technologies powering this project:
 
 This project is **free and open for educational use**.
 
-**Created for Marketing / ELEC 2 Subject**
 
 Feel free to use, modify, and distribute this project for your own purposes. Just remember to:
 - Update the content and images to match your business
 - Change the branding and company information
 - Customize the color scheme and design to your preference
 
-**© 2025 Tech Assist IT Solution. All rights reserved to original content.**
+**© 2026 Innovatech IT Solution. All rights reserved to original content.**
 
 ---
 
@@ -717,7 +711,7 @@ Need help or have questions? We're here to assist!
 
 <div align="center">
 
-### Built with ❤️ by Tech Assist IT Solution Team
+### Built with ❤️ by Innovatech IT Solution Team
 
 **Making Technology Accessible for Students**
 
