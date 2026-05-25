@@ -65,11 +65,10 @@ export function Navbar() {
   return (
     <>
       <nav
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-          isScrolled && !isNavbarOpen
-            ? "opacity-0 pointer-events-none -translate-y-full"
-            : "opacity-100 translate-y-0"
-        }`}
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${isScrolled && !isNavbarOpen
+          ? "opacity-0 pointer-events-none -translate-y-full"
+          : "opacity-100 translate-y-0"
+          }`}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-dark-bg via-dark-secondary to-dark-bg opacity-95 backdrop-blur-xl"></div>
         <div className="absolute bottom-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-primary-blue to-transparent opacity-50"></div>
@@ -83,15 +82,15 @@ export function Navbar() {
               <div className="absolute -inset-2 bg-gradient-to-r from-primary-blue/30 to-primary-purple/30 rounded-full blur-lg opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <ProtectedImage
                 src="https://res.cloudinary.com/diddn2pzb/image/upload/Tech-Assist_h7dufc.jpg"
-                alt="Tech Assist Logo"
+                alt="Innovatech Logo"
                 className="w-9 h-9 sm:w-10 sm:h-10 md:w-12 md:h-12 rounded-full object-cover ring-2 ring-primary-blue/50 group-hover:ring-primary-purple group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 flex-shrink-0 shadow-lg shadow-primary-blue/30"
               />
               <div className="min-w-0 relative">
                 <h1 className="heading-4 text-xs sm:text-sm md:text-base lg:text-lg bg-gradient-to-r from-primary-blue via-primary-purple to-sky-blue bg-clip-text text-transparent whitespace-nowrap font-bold">
-                  Tech Assist
+                  Innovatech
                 </h1>
                 <p className="body-small text-text-light/60 text-[9px] sm:text-[10px] md:text-xs whitespace-nowrap">
-                  IT Solution
+                  Solutions
                 </p>
               </div>
             </Link>
@@ -135,32 +134,27 @@ export function Navbar() {
               <div className="absolute inset-0 bg-gradient-to-r from-primary-blue/20 to-primary-purple/20 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-sm"></div>
               <div className="w-6 h-6 sm:w-7 sm:h-7 flex flex-col items-center justify-center relative">
                 <span
-                  className={`absolute h-0.5 w-6 sm:w-7 bg-current rounded-full transition-all duration-300 ease-in-out ${
-                    isMobileOpen ? "rotate-45" : "-translate-y-2"
-                  }`}
+                  className={`absolute h-0.5 w-6 sm:w-7 bg-current rounded-full transition-all duration-300 ease-in-out ${isMobileOpen ? "rotate-45" : "-translate-y-2"
+                    }`}
                 ></span>
                 <span
-                  className={`absolute h-0.5 w-6 sm:w-7 bg-current rounded-full transition-all duration-300 ease-in-out ${
-                    isMobileOpen ? "opacity-0 rotate-180" : "opacity-100"
-                  }`}
+                  className={`absolute h-0.5 w-6 sm:w-7 bg-current rounded-full transition-all duration-300 ease-in-out ${isMobileOpen ? "opacity-0 rotate-180" : "opacity-100"
+                    }`}
                 ></span>
                 <span
-                  className={`absolute h-0.5 w-6 sm:w-7 bg-current rounded-full transition-all duration-300 ease-in-out ${
-                    isMobileOpen ? "-rotate-45" : "translate-y-2"
-                  }`}
+                  className={`absolute h-0.5 w-6 sm:w-7 bg-current rounded-full transition-all duration-300 ease-in-out ${isMobileOpen ? "-rotate-45" : "translate-y-2"
+                    }`}
                 ></span>
               </div>
             </button>
           </div>
           <div
-            className={`lg:hidden overflow-hidden transition-all duration-500 ease-out ${
-              isMobileOpen ? "max-h-[600px] opacity-100" : "max-h-0 opacity-0"
-            }`}
+            className={`lg:hidden overflow-hidden transition-all duration-500 ease-out ${isMobileOpen ? "max-h-[600px] opacity-100" : "max-h-0 opacity-0"
+              }`}
           >
             <div
-              className={`py-4 space-y-2 border-t border-white/10 transition-all duration-300 ${
-                isMobileOpen ? "translate-y-0" : "-translate-y-4"
-              }`}
+              className={`py-4 space-y-2 border-t border-white/10 transition-all duration-300 ${isMobileOpen ? "translate-y-0" : "-translate-y-4"
+                }`}
             >
               {navLinks.map((link, index) => (
                 <Link
@@ -191,11 +185,10 @@ export function Navbar() {
       </nav>
       <button
         onClick={handleFloatingButtonClick}
-        className={`fixed bottom-6 right-6 sm:bottom-8 sm:right-8 z-50 transition-all duration-500 ${
-          isScrolled && !isNavbarOpen
-            ? "opacity-100 translate-y-0 scale-100"
-            : "opacity-0 translate-y-20 scale-0 pointer-events-none"
-        } group`}
+        className={`fixed bottom-6 right-6 sm:bottom-8 sm:right-8 z-50 transition-all duration-500 ${isScrolled && !isNavbarOpen
+          ? "opacity-100 translate-y-0 scale-100"
+          : "opacity-0 translate-y-20 scale-0 pointer-events-none"
+          } group`}
         aria-label="Toggle navigation"
       >
         <div className="relative">
@@ -209,7 +202,7 @@ export function Navbar() {
             <div className="relative w-14 h-14 sm:w-16 sm:h-16 md:w-18 md:h-18 rounded-full overflow-hidden ring-2 ring-white/30 group-hover:ring-white/50 transition-all duration-300">
               <ProtectedImage
                 src="https://res.cloudinary.com/diddn2pzb/image/upload/Tech-Assist_h7dufc.jpg"
-                alt="Tech Assist Logo"
+                alt="Innovatech Logo"
                 className="w-full h-full object-cover group-hover:scale-110 group-hover:rotate-6 transition-all duration-500"
               />
             </div>

@@ -56,31 +56,31 @@ function useCounterAnimation(
 }
 export function About() {
   const mainCounter = useCounterAnimation(100, 2000, "+");
-  const schoolsCounter = useCounterAnimation(3, 1500, "+");
+  const schoolsCounter = useCounterAnimation(1, 1500,);
   const supportCounter = useCounterAnimation(24, 1500);
   return (
     <section
       id="about"
       className="py-24 bg-gradient-to-br from-dark-bg to-dark-secondary text-text-light relative overflow-hidden"
     >
-      {}
+      { }
       <div className="absolute inset-0 grid-pattern-dense opacity-15 pointer-events-none"></div>
-      {}
+      { }
       <div className="absolute top-20 right-10 w-64 h-64 bg-primary-blue/10 rounded-full blur-3xl animate-float"></div>
       <div
         className="absolute bottom-20 left-10 w-80 h-80 bg-primary-purple/10 rounded-full blur-3xl animate-float"
         style={{ animationDelay: "2s" }}
       ></div>
-      {}
+      { }
       <div className="absolute top-0 right-1/3 w-0.5 h-full grid-line-vertical"></div>
       <div className="absolute top-1/4 left-0 w-full h-0.5 grid-line-horizontal-purple"></div>
       <div className="absolute bottom-1/4 left-0 w-full h-0.5 grid-line-horizontal-sky"></div>
-      {}
+      { }
       <div className="absolute top-0 right-0 w-24 h-24 border-r-2 border-t-2 border-primary-blue/20 rounded-tr-3xl"></div>
       <div className="absolute bottom-0 left-0 w-24 h-24 border-l-2 border-b-2 border-primary-purple/20 rounded-bl-3xl"></div>
       <div className="container mx-auto px-4 sm:px-6 relative z-10">
         <div className="grid lg:grid-cols-2 gap-8 md:gap-16 items-center max-w-7xl mx-auto">
-          {}
+          { }
           <div className="animate-fade-in-left">
             <h1 className="heading-1-mobile md:heading-1 mb-4 md:mb-6">
               Why Choose{" "}
@@ -100,7 +100,7 @@ export function About() {
               our reputation on fast service, fair pricing, and genuine care for
               student success.
             </p>
-            {}
+            { }
             <div className="space-y-2.5 md:space-y-3">
               {highlights.map((item, index) => (
                 <div
@@ -118,7 +118,7 @@ export function About() {
               ))}
             </div>
           </div>
-          {}
+          { }
           <div className="relative animate-fade-in-right mt-8 lg:mt-0">
             <div className="glass-card-dark rounded-2xl p-5 md:p-8 space-y-5 md:space-y-6 hover:scale-105 transition-transform duration-300">
               <div className="text-center" ref={mainCounter.ref}>

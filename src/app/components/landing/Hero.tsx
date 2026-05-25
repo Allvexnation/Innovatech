@@ -149,7 +149,7 @@ export function Hero() {
               <div className="flex items-center gap-1.5">
                 <CheckCircle2 className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-primary-purple flex-shrink-0" />
                 <span className="text-xs sm:text-sm text-text-light/60">
-                  3+ Partner Schools
+                  1 Partner Schools
                 </span>
               </div>
             </div>
@@ -160,7 +160,7 @@ export function Hero() {
               <div className="relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
                 <ProtectedImage
                   src="https://res.cloudinary.com/diddn2pzb/image/upload/Tech-Assist-Banner_zcyu0c.jpg"
-                  alt="Tech Assist - We're Here For You"
+                  alt="Innovatech - We're Here For You"
                   className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-dark-bg/50 via-transparent to-transparent"></div>

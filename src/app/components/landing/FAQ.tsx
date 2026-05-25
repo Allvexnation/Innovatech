@@ -4,12 +4,12 @@ import { ChevronDown } from "lucide-react";
 
 const faqs = [
   {
-    question: "What services does Innovatech IT Solution offer?",
+    question: "What services does Innovatech Solutions offer?",
     answer:
-      "Innovatech IT Solution offers three main services: Professional printing services (passport photos, ID photos, documents), computer troubleshooting (laptop repairs, phone issues, software fixes), and custom programming services (student management systems, websites, custom applications).",
+      "Innovatech Solutions offers three main services: Professional printing services (passport photos, ID photos, documents), computer troubleshooting (laptop repairs, phone issues, software fixes), and custom programming services (student management systems, websites, custom applications).",
   },
   {
-    question: "Where is Innovatech IT Solution located?",
+    question: "Where is Innovatech Solutions located?",
     answer:
       "We are located in Puerto Princesa City, Palawan, Philippines. We serve students from STI Palawan, , and .",
   },
@@ -39,7 +39,7 @@ const faqs = [
       "We can troubleshoot and fix laptop repairs, phone issues, tablet problems, software fixes, hardware diagnostics, system optimization, virus removal, and general technical support for all your devices.",
   },
   {
-    question: "How can I contact Innovatech IT Solution?",
+    question: "How can I contact Innovatech Solutions?",
     answer:
       "You can reach us by phone at +63-981-982-9768, email us at contact@Innovatechsolution.com, or visit our office in Puerto Princesa City, Palawan. You can also use the contact form on our website.",
   },
@@ -64,7 +64,7 @@ export function FAQ() {
             Frequently Asked Questions
           </h2>
           <p className="body-large max-w-3xl mx-auto">
-            Got questions about Innovatech IT Solution? We've got answers!
+            Got questions about Innovatech Solutions? We've got answers!
           </p>
         </div>
 
@@ -84,15 +84,13 @@ export function FAQ() {
                   {faq.question}
                 </h3>
                 <ChevronDown
-                  className={`w-5 h-5 text-primary-blue flex-shrink-0 transition-transform duration-300 ${
-                    openIndex === index ? "rotate-180" : ""
-                  }`}
+                  className={`w-5 h-5 text-primary-blue flex-shrink-0 transition-transform duration-300 ${openIndex === index ? "rotate-180" : ""
+                    }`}
                 />
               </button>
               <div
-                className={`overflow-hidden transition-all duration-300 ${
-                  openIndex === index ? "max-h-96" : "max-h-0"
-                }`}
+                className={`overflow-hidden transition-all duration-300 ${openIndex === index ? "max-h-96" : "max-h-0"
+                  }`}
               >
                 <div className="px-6 pb-5 pt-2">
                   <p className="body-text text-text-muted">{faq.answer}</p>
