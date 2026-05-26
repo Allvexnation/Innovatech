@@ -81,7 +81,7 @@ export function Navbar() {
             >
               <div className="absolute -inset-2 bg-gradient-to-r from-primary-blue/30 to-primary-purple/30 rounded-full blur-lg opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <ProtectedImage
-                src="https://res.cloudinary.com/diddn2pzb/image/upload/Tech-Assist_h7dufc.jpg"
+                src="https://res.cloudinary.com/dbob1wota/image/upload/3f3e83ebe24f2efe9edbfffd18acb955_bbiayb.jpg"
                 alt="Innovatech Logo"
                 className="w-9 h-9 sm:w-10 sm:h-10 md:w-12 md:h-12 rounded-full object-cover ring-2 ring-primary-blue/50 group-hover:ring-primary-purple group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 flex-shrink-0 shadow-lg shadow-primary-blue/30"
               />
@@ -201,7 +201,7 @@ export function Navbar() {
             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent group-hover:animate-shimmer"></div>
             <div className="relative w-14 h-14 sm:w-16 sm:h-16 md:w-18 md:h-18 rounded-full overflow-hidden ring-2 ring-white/30 group-hover:ring-white/50 transition-all duration-300">
               <ProtectedImage
-                src="https://res.cloudinary.com/diddn2pzb/image/upload/Tech-Assist_h7dufc.jpg"
+                src="https://res.cloudinary.com/dbob1wota/image/upload/3f3e83ebe24f2efe9edbfffd18acb955_bbiayb.jpg"
                 alt="Innovatech Logo"
                 className="w-full h-full object-cover group-hover:scale-110 group-hover:rotate-6 transition-all duration-500"
               />

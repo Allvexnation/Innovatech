@@ -343,7 +343,7 @@ export function createEmailTemplate(data: EmailTemplateData): string {
     <div class="email-container">
       <div class="email-header">
         <div class="logo-container">
-          <img src="https://res.cloudinary.com/diddn2pzb/image/upload/Tech-Assist_h7dufc.jpg" alt="Innovatech Logo" class="logo" />
+          <img src="https://res.cloudinary.com/dbob1wota/image/upload/3f3e83ebe24f2efe9edbfffd18acb955_bbiayb.jpg" alt="Innovatech Logo" class="logo" />
         </div>
         <h1 class="email-title">${isUserCopy ? "Thank You for Reaching Out!" : "New Contact Form Submission"}</h1>
       </div>

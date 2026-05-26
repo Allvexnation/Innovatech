@@ -33,7 +33,7 @@ export function Footer() {
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="flex items-center gap-3 mb-3 md:mb-4">
               <ProtectedImage
-                src="https://res.cloudinary.com/diddn2pzb/image/upload/Gemini_Generated_Image_lm9wyrlm9wyrlm9w_ortams.jpg"
+                src="https://res.cloudinary.com/dbob1wota/image/upload/3f3e83ebe24f2efe9edbfffd18acb955_bbiayb.jpg"
                 alt="Innovatech Logo"
                 className="w-10 h-10 md:w-12 md:h-12 rounded-full object-cover ring-2 ring-primary-blue/50 hover:scale-110 transition-transform duration-300"
               />
