@@ -6,11 +6,6 @@ import {
   Zap,
   Shield,
   Globe,
-  Rocket,
-  MessageSquare,
-  RefreshCw,
-  Network,
-  Gauge,
 } from "lucide-react";
 
 export function Credits() {
@@ -56,7 +51,7 @@ export function Credits() {
 
           {/* Tech Cards */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 md:gap-5 max-w-6xl mx-auto px-4 sm:px-0">
-            
+
             {/* Next.js */}
             <div className="group glass-card-dark rounded-lg md:rounded-xl p-4 sm:p-5 md:p-6 hover:bg-white/10 transition-all duration-300 border border-white/5 max-w-sm mx-auto sm:max-w-none w-full">
               <div className="flex flex-col items-center gap-2 md:gap-3">
@@ -269,45 +264,7 @@ export function Credits() {
                 </div>
               </div>
             </div>
-          </div>
 
-          {/* Website Features */}
-          <div className="glass-card-dark rounded-lg md:rounded-xl p-4 sm:p-5 md:p-6 max-w-5xl mx-auto border border-white/5">
-            <h3 className="text-base sm:text-lg md:text-xl font-bold text-text-light mb-3 sm:mb-4">
-              Website Features & Technologies
-            </h3>
-
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 sm:gap-3">
-              <div className="px-3 py-2 rounded-lg bg-primary-blue/10 border border-primary-blue/20 text-primary-blue font-medium text-xs md:text-sm flex items-center justify-center gap-1.5 text-center">
-                <Rocket className="w-3.5 h-3.5 flex-shrink-0" />
-                <span>SSR</span>
-              </div>
-
-              <div className="px-3 py-2 rounded-lg bg-primary-purple/10 border border-primary-purple/20 text-primary-purple font-medium text-xs md:text-sm flex items-center justify-center gap-1.5 text-center">
-                <Mail className="w-3.5 h-3.5 flex-shrink-0" />
-                <span>Email Auto</span>
-              </div>
-
-              <div className="px-3 py-2 rounded-lg bg-primary-blue/10 border border-primary-blue/20 text-primary-blue font-medium text-xs md:text-sm flex items-center justify-center gap-1.5 text-center">
-                <MessageSquare className="w-3.5 h-3.5 flex-shrink-0" />
-                <span>Real-time</span>
-              </div>
-
-              <div className="px-3 py-2 rounded-lg bg-sky-blue/10 border border-sky-blue/20 text-sky-blue font-medium text-xs md:text-sm flex items-center justify-center gap-1.5 text-center">
-                <RefreshCw className="w-3.5 h-3.5 flex-shrink-0" />
-                <span>API</span>
-              </div>
-
-              <div className="px-3 py-2 rounded-lg bg-primary-blue/10 border border-primary-blue/20 text-primary-blue font-medium text-xs md:text-sm flex items-center justify-center gap-1.5 text-center">
-                <Network className="w-3.5 h-3.5 flex-shrink-0" />
-                <span>Full-Stack</span>
-              </div>
-
-              <div className="px-3 py-2 rounded-lg bg-primary-purple/10 border border-primary-purple/20 text-primary-purple font-medium text-xs md:text-sm flex items-center justify-center gap-1.5 text-center">
-                <Gauge className="w-3.5 h-3.5 flex-shrink-0" />
-                <span>Fast</span>
-              </div>
-            </div>
           </div>
         </div>
       </div>
