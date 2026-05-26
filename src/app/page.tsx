@@ -19,7 +19,7 @@ export default function Home() {
     description:
       "Innovatech IT Solution - Your trusted partner for affordable printing, computer troubleshooting, and custom programming services in Palawan. Expert IT support for students.",
     url: baseUrl,
-    image: "https://res.cloudinary.com/diddn2pzb/image/upload/Tech-Assist-Banner_zcyu0c.jpg",
+    image: "https://res.cloudinary.com/dbob1wota/image/upload/innovatech-slotuions-banner_m5lz5b.jpg",
     telephone: "+63-981-982-9768",
     address: {
       "@type": "PostalAddress",

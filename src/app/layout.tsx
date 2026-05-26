@@ -37,7 +37,7 @@ export const metadata: Metadata = {
       "Student-friendly IT services in Palawan. Affordable printing, troubleshooting, and IT consultation.",
     images: [
       {
-        url: "https://res.cloudinary.com/diddn2pzb/image/upload/Tech-Assist-Banner_zcyu0c.jpg",
+        url: "https://res.cloudinary.com/dbob1wota/image/upload/innovatech-slotuions-banner_m5lz5b.jpg",
         width: 1200,
         height: 630,
         alt: "Innovatech IT Solution - Student Friendly IT Services",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     title: "Innovatech - Student Friendly IT Services",
     description:
       "Student-friendly IT services in Palawan. Affordable printing, troubleshooting, and IT consultation.",
-    images: ["https://res.cloudinary.com/diddn2pzb/image/upload/Tech-Assist-Banner_zcyu0c.jpg"],
+    images: ["https://res.cloudinary.com/dbob1wota/image/upload/innovatech-slotuions-banner_m5lz5b.jpg"],
   },
   robots: {
     index: true,
@@ -127,7 +127,7 @@ export default function RootLayout({
       },
     ],
     sameAs: ["https://facebook.com/Innovatech"],
-    image: "https://res.cloudinary.com/diddn2pzb/image/upload/Tech-Assist-Banner_zcyu0c.jpg",
+    image: "https://res.cloudinary.com/dbob1wota/image/upload/innovatech-slotuions-banner_m5lz5b.jpg",
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: "5",

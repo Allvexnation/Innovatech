@@ -159,7 +159,7 @@ export function Hero() {
               <div className="absolute -inset-4 bg-gradient-to-r from-primary-blue/30 via-primary-purple/30 to-sky-blue/30 rounded-3xl blur-2xl opacity-75 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
                 <ProtectedImage
-                  src="https://res.cloudinary.com/diddn2pzb/image/upload/Tech-Assist-Banner_zcyu0c.jpg"
+                  src="https://res.cloudinary.com/dbob1wota/image/upload/innovatech-slotuions-banner_m5lz5b.jpg"
                   alt="Innovatech - We're Here For You"
                   className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-700"
                 />
