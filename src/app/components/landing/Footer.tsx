@@ -238,7 +238,7 @@ export function Footer() {
 
         <div className="pt-6 md:pt-8 border-t border-white/10 flex justify-center items-center">
           <p className="body-text text-text-light/60 text-xs md:text-sm text-center">
-            © 2026 Innovatech Solutions. All rights reserveds.
+            © 2026 Innovatech Solutions. All rights reserves.
           </p>
         </div>
       </div>
